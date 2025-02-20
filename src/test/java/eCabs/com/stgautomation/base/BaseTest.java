@@ -13,7 +13,7 @@ public class BaseTest extends BasePage {
 
     protected WebDriver driver;
     protected BaseTest basePage;
-    private String url = "https://cuoriumpanels.ecabsonline.com/";
+    private String url = "https://test.com/";
 
     @BeforeAll
 

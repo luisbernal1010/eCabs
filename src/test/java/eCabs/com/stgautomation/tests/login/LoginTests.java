@@ -9,7 +9,7 @@ public class LoginTests extends BaseTest {
     @Test
 
     public void testLoginErrorMessage(){
-        LoginPage.setUsername("luisbernal@ecabs.com.mt");
+        LoginPage.setUsername("test);
         LoginPage.setPassword("123");
         LoginPage.ClickLoginButton();
         String actualMessage = LoginPage.getErrorMessage();
